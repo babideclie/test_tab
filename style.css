@@ -1,0 +1,136 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #031427; /* Fundo principal em azul */
+    color: #031427;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilos gerais */
+#app {
+    width: 100%;
+    max-width: 450px;
+    padding: 25px;
+    background-color: #ffffff; /* Fundo branco para contraste */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #031427; /* Título em azul para dar destaque */
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* Seções de Login e Cadastro */
+#login-section, #signup-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #031427;
+}
+
+input {
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #F3DE14; /* Amarelo para borda de destaque */
+    outline: none;
+}
+
+button {
+    padding: 12px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #F3DE14; /* Botão principal em amarelo */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e5c900; /* Escurecimento no hover */
+}
+
+/* Links */
+p {
+    text-align: center;
+    font-size: 0.9em;
+    color: #031427;
+}
+
+p a {
+    color: #F3DE14;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+p a:hover {
+    color: #d4bb00;
+}
+
+/* Perfil do Usuário */
+#user-profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#user-profile p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+#user-profile button {
+    width: 100%;
+    padding: 12px;
+}
+
+/* Estilo para dar destaque e sofisticação */
+.box-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.border-radius {
+    border-radius: 8px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.bg-primary {
+    background-color: #031427;
+}
+
+.text-primary {
+    color: #031427;
+}
+
+.text-secondary {
+    color: #F3DE14;
+}

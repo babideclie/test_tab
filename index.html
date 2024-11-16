@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreelaBee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Conteúdo do app vai aqui -->
+        <h1>Bem-vindo ao FreelaBee!</h1>
+    </div>
+    <script src="script.js"></script>
+    <div id="login-section">
+        <h2>Login</h2>
+        <input type="email" id="login-email" placeholder="Email">
+        <input type="password" id="login-password" placeholder="Senha">
+        <button onclick="login()">Entrar</button>
+        <p>Não tem conta? <a href="#" onclick="showSignup()">Cadastre-se</a></p>
+    </div>
+    <div id="signup-section" style="display: none;">
+        <h2>Cadastro</h2>
+        <input type="email" id="signup-email" placeholder="Email">
+        <input type="password" id="signup-password" placeholder="Senha">
+        <button onclick="signup()">Cadastrar</button>
+        <p>Já tem conta? <a href="#" onclick="showLogin()">Faça login</a></p>
+    </div>
+    <div id="user-profile">
+        <h2>Perfil do Usuário</h2>
+        <p>Nome: <span id="user-name"></span></p>
+        <p>Localização: <span id="user-location"></span></p>
+        <button onclick="editProfile()">Editar Perfil</button>
+    </div>
+</body>
+</html>
